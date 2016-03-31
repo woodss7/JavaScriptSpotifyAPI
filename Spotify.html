@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta id="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spotify Application - Final Project</title>
+	<link rel="stylesheet" href="Spotify.css" />
+	<script src="modernizr.custom.65897.js"></script>
+</head>
+
+<body>
+	<div id="headerDiv">
+		<header>
+			<h1>Spotify Application - Final Project</h1>
+		</header>
+	</div>
+	
+	<article>
+		<div id="errorMessage"></div>
+		<h2>Search for Artist Information</h2>
+		<fieldset>
+			<p>Choose An Artist Below:</p>
+			<input id="btnLinkinPark" type="submit" value="Linkin Park" />
+			<input id="btnRush" type="submit" value="Rush" />
+			<input id="btnKanyeWest" type="submit" value="Kanye West" />
+			<input id="btnShaniaTwain" type="submit" value="Shania Twain" />
+			<input id="btnBeethoven" type="submit" value="Beethoven" />
+		</fieldset>
+		<table id="resultsTable">
+			<tr>
+				<td>Artist Name</td>
+				<td id="artistName"></td>
+			</tr>
+			<tr>
+				<td>Genre</td>
+				<td id="artistGenre"></td>
+			</tr>
+			<tr>
+				<td>Popularity</td>
+				<td id="artistPop"></td>
+			</tr>
+			<tr>
+				<td>Followers</td>
+				<td id="artistFollowers"></td>
+			</tr>
+			<tr>
+				<td id="imageLabel">Image</td>
+				<td id="artistImage"></td>
+			</tr>
+		</table>
+	</article>
+	<script src="script.js"></script>
+</body>
+</html>

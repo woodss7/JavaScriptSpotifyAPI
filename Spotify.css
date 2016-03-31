@@ -1,0 +1,89 @@
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+html{
+	background: linear-gradient(white, #00e600);
+	background-size: cover;
+	min-height: 100%;
+}
+
+body {
+	min-height:100%;
+}
+
+h1{
+	display: block;
+}
+
+h2{
+	font-size: 2.3em;
+	text-align:center;
+	text-shadow: 1px 1px white;
+}
+
+#resultsTable{
+	background-color: #595959;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+fieldset{
+	text-align: center;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #595959;
+	color: white;
+	font-size: 1.5em;
+	text-shadow: 1px 1px black;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
+#headerDiv{
+	background: #00e600;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	font-size: 2em;
+	text-align: center;
+	border-style: outset;
+	border-color: #00e600;
+	text-shadow: 1px 1px white;
+	
+}
+#footerDiv{
+	text-align: center;
+	font-size: 1em;
+	padding-top: 8%;
+}
+#btnLinkinPark{
+	width: 100px;
+}
+#btnCher{
+	width: 100px;
+}
+td{
+	text-align: left;
+	width: 50%;
+	height: 35px;
+	padding-left: 5px;
+}
+#imageLabel{
+	vertical-align: top;
+}
